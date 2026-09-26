@@ -1,0 +1,12 @@
+#offbar{display:none;background:#b45309;color:#fff;padding:9px 16px;font-size:13px;
+  text-align:center;font-weight:600}
+#offbar.on{display:block}
+#installBar{display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;
+  background:#0284c7;color:#fff;padding:13px 16px;border-radius:12px;
+  box-shadow:0 8px 28px rgba(0,0,0,.5);align-items:center;gap:12px;font-size:14px}
+#installBar.on{display:flex}
+#installBar button{border:none;border-radius:8px;padding:8px 16px;cursor:pointer;
+  font-family:inherit;font-weight:700;font-size:13px}
+.pending{background:#7c3aed;color:#fff;padding:2px 9px;border-radius:99px;font-size:11px;margin-left:6px}
+body{padding-bottom:env(safe-area-inset-bottom)}
+header{padding-top:calc(14px + env(safe-area-inset-top))}

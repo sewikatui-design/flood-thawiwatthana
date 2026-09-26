@@ -1,0 +1,32 @@
+{
+  "name": "ระบบติดตามน้ำท่วม เขตทวีวัฒนา",
+  "short_name": "น้ำท่วมทวีวัฒนา",
+  "description": "ติดตามสถานการณ์น้ำท่วม ระดับน้ำคลอง และแจ้งเหตุในพื้นที่เขตทวีวัฒนา กรุงเทพมหานคร",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "th",
+  "dir": "ltr",
+  "categories": ["utilities", "weather", "government"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "แจ้งน้ำท่วม",
+      "short_name": "แจ้งเหตุ",
+      "description": "แจ้งจุดน้ำท่วมพร้อมพิกัด",
+      "url": "./index.html?page=report"
+    },
+    {
+      "name": "บันทึกระดับน้ำ",
+      "short_name": "บันทึกน้ำ",
+      "url": "./index.html?page=input"
+    }
+  ]
+}
